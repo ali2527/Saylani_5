@@ -1,15 +1,39 @@
-// CHAPTER 1
+// CHAPTER 21 - 25
     // Task 1
-    alert("hello world");
+    var firstname=prompt("enter first name: ");
+    var lastname=prompt("enter last name: ");
+    var fullName=firstname + lastname;
+   
+    alert("full name: "+ fullName);
     // Task 2
-    alert("Error! please Enter a valid password");
+    var fav=prompt("enter your fav mob comp");
+    fav = document.write("legnth of string : " + fav.length)
     // Task 3
-    alert("Welcome to JS Land \nHappy Coding!...");
+    var a=window.prompt("enter string")
+    var b=window.prompt("enter char to find index")
+    var c= a.indexOf(b);
+    var g=  alert("string: "+a)
+    var d=alert("index of" + b + " "+"is"+c)
     // Task 4
-    alert("Welcome to JS land");
-    alert("Happy Coding...");
+    alert('The string is   :  Hello World'); var a = 'Hello World'; alert('Last Index of l is  : ' + a.lastIndexOf('l'));
     // Task 5
-    alert("Hello... I can run JS on my browser");
+    alert('The string is   :  Pakistani'); var a = 'pakistani'; alert('Character at index 3 is  : ' + a[3]);
+    // Task 6
+    var a = prompt('Enter First Name'); var b = prompt('Enter Last Name'); var fnm = a.concat(b); alert(fnm);
+    // Task 7
+    a = 'Heyderabad'; b = a.replace('Heyder' , 'Islam');  alert('City   :  Heyderabad \n' + 'After Replacement    :  ' + b);
+    // Task 8
+    var message = 'Ali and Sami are best friends. They play cricket and football together.'; var b = message.replace(/and/g,'&'); alert(message + '\n\n' + 'After Replacement : ' + b);
+    // Task 9
+    var a = '472'; var b = parseInt(a); alert('Value : ' + a + '\n type : ' + typeof(a) + '\nValue : ' + b + '\n type : ' + typeof(b));
+    // Task 10
+    var a=window.prompt("enter a string")
+//a=a.slice(0);
+var b= a.toUpperCase();
+document.write("string :"+a +"<br>" + "upper case: "+b)
+    // Task 11
+
+    
     
 // CHAPTER 2
     // Task 1
